@@ -79,3 +79,20 @@ console.log(miResta)
 const nuevaSuma = (a, b) => (a + b)
 
 console.log(nuevaSuma(5, 90))
+
+/*
+=============CICLOS================
+*/
+
+//Ciclo for
+let dayNumberList = []
+let dayNumberInit = 0
+
+for (let index = 0; index < diasSemana.length; index++) {
+    const dayName = diasSemana[index];
+    let dayNumber = dayNumberInit + 1
+
+    dayNumberList.push(dayNumber)
+}
+
+console.log(dayNumberList)
